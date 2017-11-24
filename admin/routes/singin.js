@@ -3,6 +3,7 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
+	res.render("singin");
 	// var socialLogin			= new socialLoginClass({
  //    app:	app,
  //    url:	'http://localhost:3000',

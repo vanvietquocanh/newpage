@@ -16,6 +16,8 @@ var calendar = require('./routes/calendar');
 var profile = require('./routes/profile');
 var special = require('./routes/special');
 var offers = require('./routes/offers');
+var phono = require('./routes/phono');
+var checkicon = require('./routes/checkicon');
 
 var app = express();
 
@@ -85,6 +87,8 @@ app.use('/calendar', calendar);
 app.use('/profile', profile);
 app.use('/special', special);
 app.use('/offers', offers);
+app.use('/phono', phono);
+app.use('/checkicon', checkicon);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

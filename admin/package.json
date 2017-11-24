@@ -6,13 +6,18 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "app-store-scraper": "^0.7.0",
     "body-parser": "~1.18.2",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "ejs": "~2.5.7",
     "express": "~4.15.5",
+    "firebase-admin": "^5.5.1",
+    "google-play-scraper": "^4.0.0",
     "morgan": "~1.9.0",
     "node-sass-middleware": "0.9.8",
+    "passport-github": "^1.1.0",
+    "passport-youtube-v3": "^2.1.0",
     "serve-favicon": "~2.4.5",
     "social-login": "^0.2.8"
   }
